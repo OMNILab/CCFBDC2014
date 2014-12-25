@@ -19,7 +19,7 @@
 
 本赛题的数据集由[海量公司提供](http://www.hylanda.com/). 原始数据集主要包括从网络媒体
 （包括新闻和微博）爬取的2011-2014年三类公共安全事件（公交爆炸、暴力恐怖、校园砍杀）的报道
-数据。[原始数据集](http://pan.baidu.com/s/1kTBUrSr) 可以从共享云盘下载（**提取密码**: k4zd）。除此之外，我们还公开了比赛过程中采集到其他数据集，以及分析过程中生成的重要结果，如事件量化特征；此类[扩展数据集](http://data.sjtu.edu.cn/dataset/ccfbd)托管在我们OMNILab基于CKAN的数据共享平台上，可免费下载。
+数据。[原始数据集](http://pan.baidu.com/s/1kTBUrSr) 可以从云盘共享下载（**提取密码**: k4zd）。除此之外，我们还公开了比赛过程中采集到其他数据集，以及分析过程中生成的重要结果，如事件量化特征；此类[扩展数据集](http://data.sjtu.edu.cn/dataset/ccfbd)托管在我们OMNILab基于CKAN的数据共享平台上，可免费下载。
 
 ### 源代码
 
@@ -35,12 +35,20 @@
 
 ### 提交文档及BDTC2014专场报告
 
-参赛过程中的总体分析思路和结果，最终以文档的形式提交给比赛组委会。
+参赛过程中的总体分析思路和结果，最终以文档的形式提交给比赛组委会。这里我们共享出提交文档以及BDTC会议的专场报告。文档包含在[CCFBDC2014](https://github.com/OMNI-Lab/CCFBDC2014)项目根目录下：
 
+* `BDC-PAPER-OmniEye`: 该文档为比赛提交论文
+* `BDC-Talk-2014-OmniEye`: 该文档为BDTC2014赛事专场报告的Slides
+
+如果您使用的事Web浏览器，可直接访问论文的[网页版本](http://data.sjtu.edu.cn:8888)
+
+### 公共安全事件可视化
+
+经过语境过滤的事件分类和事件提取之后，我们获得了～1200件大小事件的发生时间、地点、以及媒体影响。针对这些数据的可视化展示请访问：http://data.sjtu.edu.cn:1111
 
 ## 赛事链接
 
 * **大赛网址：**<http://bigdatacontest.ccf.org.cn/>  
 * **公共安全赛题：**<http://activity.hylanda.com/>
 
-<center>编辑时间 2014-12-04<center>
+<center>编辑时间 2014-12-24<center>
