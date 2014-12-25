@@ -34,9 +34,9 @@
 
 代码的详细使用文档请参考[Wiki说明](https://github.com/OMNI-Lab/CCFBDC2014/wiki)。
 
-### 提交文档及BDTC2014专场报告
+### 文档及报告
 
-参赛过程中的总体分析思路和结果，最终以文档的形式提交给比赛组委会。这里我们共享出提交文档以及BDTC会议的专场报告。文档包含在[该项目](https://github.com/OMNI-Lab/CCFBDC2014)源代码根目录下：
+参赛过程中的总体分析思路和结果，最终以文档的形式提交给比赛组委会。这里我们共享出提交文档以及BDTC2014会议的专场报告。文档包含在[该项目](https://github.com/OMNI-Lab/CCFBDC2014)源代码根目录下：
 
 * `BDC-PAPER-OmniEye`: 该文档为比赛提交论文
 * `BDC-Talk-2014-OmniEye`: 该文档为BDTC2014赛事专场报告的Slides
