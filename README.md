@@ -41,7 +41,7 @@
 * `BDC-PAPER-OmniEye`: 该文档为比赛提交论文
 * `BDC-Talk-2014-OmniEye`: 该文档为BDTC2014赛事专场报告的Slides
 
-如果您使用的事Web浏览器，可直接访问论文的[网页版本](http://omni-lab.github.io/CCFBDC2014/paper)。
+如果您使用的是Web浏览器，可直接访问论文的[网页版本](http://omni-lab.github.io/CCFBDC2014/paper)。
 
 ### 公共安全事件可视化
 
