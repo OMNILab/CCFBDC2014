@@ -10,6 +10,7 @@
 * 团队成员: 陈夏明，强思维，王海洋，孙莹，石开元  
 * 指导老师：上海交通大学网络信息中心 金耀辉 教授  
 * 联系方式：chenxm35@gmail.com 
+* 项目地址：http://omni-lab.github.io/CCFBDC2014
 
 ## 项目资料
 
@@ -40,11 +41,11 @@
 * `BDC-PAPER-OmniEye`: 该文档为比赛提交论文
 * `BDC-Talk-2014-OmniEye`: 该文档为BDTC2014赛事专场报告的Slides
 
-如果您使用的事Web浏览器，可直接访问论文的[网页版本](http://data.sjtu.edu.cn:8888)
+如果您使用的事Web浏览器，可直接访问论文的[网页版本](http://omni-lab.github.io/CCFBDC2014/paper)。
 
 ### 公共安全事件可视化
 
-经过语境过滤的事件分类和事件提取之后，我们获得了～1200件大小事件的发生时间、地点、以及媒体影响。针对这些数据的可视化展示请访问：http://data.sjtu.edu.cn:1111
+经过语境过滤的事件分类和事件提取之后，我们获得了～1200件大小事件的发生时间、地点、以及媒体影响。针对这些数据的可视化展示请访问：http://omni-lab.github.io/CCFBDC2014/map
 
 ## 赛事链接
 
