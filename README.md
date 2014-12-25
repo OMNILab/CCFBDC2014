@@ -7,7 +7,7 @@
 本危害公共安全事件的关联关系挖掘及预测案例，提供了基于多维（时间、空间、语义）数据分析的公共安全事件管理方法，包括同类、异类事件的相关性分析，以及预测未来一段时间内同地区发生类似事件的可能性。
 
 * 团队名称：OmniEye团队 
-* 团队成员: 陈夏明，强思维，王海洋，孙莹，石开元  
+* 团队成员：陈夏明，强思维，王海洋，孙莹，石开元  
 * 指导老师：上海交通大学网络信息中心 金耀辉 教授  
 * 联系方式：chenxm35@gmail.com 
 * 项目地址：http://omni-lab.github.io/CCFBDC2014
@@ -37,8 +37,8 @@
 
 参赛过程中的总体分析思路和结果，最终以文档的形式提交给比赛组委会。这里我们共享出提交文档以及BDTC2014会议的专场报告。文档包含在[该项目](https://github.com/OMNI-Lab/CCFBDC2014)源代码根目录下：
 
-* `[BDC-PAPER-OmniEye](https://github.com/OMNI-Lab/CCFBDC2014/raw/master/BDC-PAPER-OmniEye.pdf)`: 该文档为比赛提交论文
-* `[BDC-Talk-2014-OmniEye](https://github.com/OMNI-Lab/CCFBDC2014/raw/master/BDC-Talk-2014-OmniEye.pdf)`: 该文档为BDTC2014赛事专场报告的Slides
+* [BDC-PAPER-OmniEye](https://github.com/OMNI-Lab/CCFBDC2014/raw/master/BDC-PAPER-OmniEye.pdf): 该文档为比赛提交论文
+* [BDC-Talk-2014-OmniEye](https://github.com/OMNI-Lab/CCFBDC2014/raw/master/BDC-Talk-2014-OmniEye.pdf): 该文档为BDTC2014赛事专场报告的Slides
 
 如果您使用的是Web浏览器，可直接访问论文的[网页版本](http://omni-lab.github.io/CCFBDC2014/paper)。
 
