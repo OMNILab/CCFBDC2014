@@ -10,7 +10,7 @@
 * 团队成员：陈夏明，强思维，王海洋，孙莹，石开元  
 * 指导老师：上海交通大学网络信息中心 金耀辉 教授  
 * 联系方式：chenxm35@gmail.com 
-* 项目地址：http://omni-lab.github.io/CCFBDC2014
+* 项目地址：http://omnilab.github.io/CCFBDC2014
 
 ## 项目资料
 
