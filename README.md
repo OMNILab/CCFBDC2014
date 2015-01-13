@@ -23,7 +23,7 @@
 
 ### 源代码
 
-针对比赛数据，该项目代码提供了完整的媒体数据处理和模型生成方法，主要分为关联性分析和未来事件预测两部分。源代码[托管在Github](https://github.com/OMNI-Lab/CCFBDC2014)上，主要包含以下核心模块:
+针对比赛数据，该项目代码提供了完整的媒体数据处理和模型生成方法，主要分为关联性分析和未来事件预测两部分。源代码[托管在Github](https://github.com/OMNILab/CCFBDC2014)上，主要包含以下核心模块:
 
 *  媒体事件识别、提取、分类
 *  众包事件标注与事件分类校验
@@ -31,20 +31,20 @@
 *  媒体传播规律、事件发生时空关联性分析
 *  基于Gradient-Boosting算法的事件预测、交叉验证
 
-代码的详细使用文档请参考[Wiki说明](https://github.com/OMNI-Lab/CCFBDC2014/wiki)。
+代码的详细使用文档请参考[Wiki说明](https://github.com/OMNILab/CCFBDC2014/wiki)。
 
 ### 文档及报告
 
 参赛过程中的总体分析思路和结果，最终以文档的形式提交给比赛组委会。这里我们共享出提交文档以及BDTC2014会议的专场报告。文档包含在[该项目](https://github.com/OMNI-Lab/CCFBDC2014)源代码根目录下：
 
-* [BDC-PAPER-OmniEye](https://github.com/OMNI-Lab/CCFBDC2014/raw/master/BDC-PAPER-OmniEye.pdf): 该文档为比赛提交论文
-* [BDC-Talk-2014-OmniEye](https://github.com/OMNI-Lab/CCFBDC2014/raw/master/BDC-Talk-2014-OmniEye.pdf): 该文档为BDTC2014赛事专场报告的Slides
+* [BDC-PAPER-OmniEye](https://github.com/OMNILab/CCFBDC2014/raw/master/BDC-PAPER-OmniEye.pdf): 该文档为比赛提交论文
+* [BDC-Talk-2014-OmniEye](https://github.com/OMNILab/CCFBDC2014/raw/master/BDC-Talk-2014-OmniEye.pdf): 该文档为BDTC2014赛事专场报告的Slides
 
-如果您使用的是Web浏览器，可直接访问论文的[网页版本](http://omni-lab.github.io/CCFBDC2014/paper)。
+如果您使用的是Web浏览器，可直接访问论文的[网页版本](http://omnilab.github.io/CCFBDC2014/paper)。
 
 ### 公共安全事件可视化
 
-经过语境过滤的事件分类和事件提取之后，我们获得了～1200件大小事件的发生时间、地点、以及媒体影响。针对这些数据的可视化展示请访问：http://omni-lab.github.io/CCFBDC2014/map 。
+经过语境过滤的事件分类和事件提取之后，我们获得了～1200件大小事件的发生时间、地点、以及媒体影响。针对这些数据的可视化展示请访问：http://omnilab.github.io/CCFBDC2014/map 。
 
 ## 赛事链接
 
