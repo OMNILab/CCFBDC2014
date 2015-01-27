@@ -1,23 +1,17 @@
 # -*- coding: utf-8 -*-
 import fileinput
 import time
-import fileinput
-#from gensim import corpora, models, similarities
 
-def cos(a, b):
-	import math
-	try:
-		return sum([sa*sb if pa == pb else 0 for (pa,sa) in a for (pb,sb) in b])/math.sqrt(sum([sa**2 for (pa,sa) in a])*sum([sb**2 for (pb,sb) in b]))
-	except:
-		return 0
 input_file = "./t_lable_group_comp_1.sort.seg.txt"
 output_file1 = "./tag_pos_t_lable_group_comp_1.seg.txt"
 output_file2 = "./tag_neg_t_lable_group_comp_1.seg.txt"
+
 A1 = ["公交","车辆","巴士","交通","乘坐","车厢","车窗","驾驶员","司机","乘客"]
 A2 = ["爆炸","炸弹","起火","大火","燃烧","自燃"]
 B1 = ["暴力","恐怖","暴徒","袭击","击毙","自杀式"]
 C1 = ["校园","学校","高校","名校","校内","校外","小学","中学","初中","高中","大学","学生","同学","教师","老师","师生","幼儿园"]
 C2 = ["砍","刀","匕首","刺","捅","杀"]
+
 file1 = open(output_file1,"w")
 file2 = open(output_file2,"w")
 for line in fileinput.input(input_file):
