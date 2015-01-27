@@ -2,8 +2,12 @@ library(minerva)
 library(lattice)
 
 i <- 3
-input_file1 = "./features_1"#公交车爆炸features_1，暴恐事件features_2，校园砍杀features_3
-input_file2 = "./feature_readme.txt"#特征名称
+
+#公交车爆炸features_1，暴恐事件features_2，校园砍杀features_3
+input_file1 <- "features_1"
+#特征名称
+input_file2 <- "feature_readme.txt"
+
 features <- read.csv(paste(input_file1, i, ".txt", sep=""),
                      head=F, sep='\t',stringsAsFactors=T)
 summary(pc.cr <- princomp(features[,2:length(features)]))
@@ -105,11 +109,3 @@ df.acf$t <- as.factor(df.acf$t)
 gg <- ggplot(df.acf, aes(lag, acf, group=t, fill=t)) +
   theme_bw() + geom_bar(stat="identity", position=position_dodge())
 plot(gg)
-
-
-
-
-
-
-
-

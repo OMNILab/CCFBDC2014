@@ -3,12 +3,14 @@
 import csv
 import fileinput
 
+input_file1 = "event_attributes-results.txt"
+input_file2 = "holiday.txt"
+
 area = {0:"东北区",1:"西北区",2:"西南区",3:"华北区",4:"华东区",5:"华南区",6:"华中区",7:"港澳台"}
 province = {0:"上海",1:"云南",2:"内蒙",3:"北京",4:"台湾",5:"吉林",6:"四川",7:"天津",8:"宁夏",9:"安徽",10:"山东",11:"山西",12:"广东",13:"广西",14:"新疆",15:"江苏",16:"江西",17:"河北",18:"河南",19:"浙江",20:"海南",21:"湖北",22:"湖南",23:"甘肃",24:"福建",25:"贵州",26:"辽宁",27:"重庆",28:"陕西",29:"青海",30:"香港",31:"黑龙江"}
-input_file1 = "event_attributes-results_my.txt"
-input_file2 = "holiday.txt"
 max_offset, xlen = 1125, 28
 pv_event, pv_index = {"全国":[]}, {"全国":[[] for i in xrange(max_offset/xlen+1)]}
+
 for line in fileinput.input(input_file1):
 	row = line.strip().split("\t")
 	event_id, event_tag, day_offset, happen_province, happen_area = int(row[0]), int(row[1]), int(row[2]), row[15].replace("省","").replace("市","").replace("自治区","").replace("古",""), [1 if area[x]==row[14] else 0 for x in range(8)]
